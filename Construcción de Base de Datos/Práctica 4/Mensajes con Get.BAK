@@ -1,0 +1,19 @@
+Clear
+Nombre=Space(30)
+Domicilio=Space(40)
+Especialidad=Space(20)
+Escuela=Space(20)
+Grupo=0
+
+@05,40 Say "Programación en SQL de Visual Fox"
+@07,20 Say "Escribe tu nombre"
+@07,50 Get Nombre
+@09,20 Say "¿Cual es tu domicilio?"
+@09,50 Get Domicilio
+@11,20 Say "¿En donde estudias?"
+@11,50 Get Escuela
+@13,20 Say "¿Cual es tu especialidad?"
+@13,50 Get Especialidad
+@15,20 Say "¿Cual es tu grupo?"
+@15,50 Get Grupo
+Read
